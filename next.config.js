@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['storegg-serv.herokuapp.com'],
+    domains: ['mern-server21.herokuapp.com'],
   },
 };

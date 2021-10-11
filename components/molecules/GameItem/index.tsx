@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export interface GameItemProps{
-    title: string;
-    category: string;
-    thumbnail: string;
-    id: string;
+export interface GameItemProps {
+  title: string;
+  category: string;
+  thumbnail: string;
+  id: string;
 }
 
 export default function GameItem(props: GameItemProps) {

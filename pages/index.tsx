@@ -21,8 +21,8 @@ export default function Home() {
         <meta name="description" content="Kami menyediakan jutaan cara untuk menjadi gamer terbaik" />
         <meta property="og:title" content="StoreGG - Get a New Experiene in Gaming" />
         <meta property="og:description" content="Kami menyediakan jutaan cara untuk menjadi gamer terbaik" />
-        <meta property="og:image" content="https://storegg-serv.herokuapp.com/uploads/5.png" />
-        <meta property="og:image" content="https://storegg.com" />
+        <meta property="og:image" content="https://mern-server21.herokuapp.com/uploads/5.png" />
+        <meta property="og:image" content="https://mern-server21.herokuapp.com" />
       </Head>
 
       <Navbar />

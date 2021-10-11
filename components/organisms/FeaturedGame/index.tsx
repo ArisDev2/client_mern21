@@ -30,11 +30,14 @@ export default function FeaturedGame() {
           data-aos="fade-up"
         >
           {gameList.map((item: GameItemTypes) => (
+            // console.log(`${API_IMG}/${item.thumbnail}`)
             <GameItem
               key={item._id}
               title={item.name}
               category={item.category.name}
+              // thumbnail={`https://mern-server21.herokuapp.com/uploads/1.png`}
               thumbnail={`${API_IMG}/${item.thumbnail}`}
+              // thumbnail={`${item.thumbnail}`}
               id={item._id}
             />
           ))}

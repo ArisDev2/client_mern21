@@ -50,7 +50,7 @@
                 "tsx": "never"
             }
         ],
-        "linebreak-style": ["error", "windows"],
+        "linebreak-style": 0,
         "jsx-a11y/label-has-associated-control": "off",
         "react/jsx-props-no-spreading": "off",
         "no-underscore-dangle": "off",
